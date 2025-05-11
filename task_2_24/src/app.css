@@ -1,0 +1,21 @@
+img{
+    width: 80px;
+    border-radius: 30%;
+    background-color: azure;
+}
+#id{
+    background-color: rgb(219, 248, 248);
+    font-weight: 700;
+}
+.row{
+    background-color: rgb(166, 231, 231);
+    font-weight: bolder;
+}
+#id1{
+    background-color: azure; 
+    width: 80%;
+    font-weight: 600;
+}
+h1{
+    color: rgb(86, 135, 178);
+}

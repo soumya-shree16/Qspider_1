@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+
+.nav{
+    width: 100%;
+    background-color: transparent;
+    color:white;
+    top:0;
+    padding: 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 10px;
+    font-size: 15px;
+    gap:8;
+    padding-left: 10px;
+    font-weight: 600;
+}
+nav ul li:hover{
+  text-decoration: wavy;
+}
+.logo{
+    padding-left: 20px;
+}
+.shop{
+    margin-right: 175px;
+}
+
+.card{
+    width:100%;
+    height: 100vh;
+    background-size: cover   ;
+   
+}
+.text{
+    align-items: center;
+    justify-content: center;
+    padding-top: 500px;
+    padding-left: 180px;
+    color: white;
+    font-size: 25px;
+}
+
+
+
+.foot{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 14px;
+    display: flex;
+    position: relative;
+    padding:20px ;
+    padding-left: 550px;
+    gap: 20px;
+}
+#btn{
+    width: 140px;
+    height: 50px;
+    /* margin-top: 10px; */
+    background: transparent;
+    border: 1px solid white;
+    color: azure;
+    font-size: 20px;
+    transition: 0.3sec;
+
+}
+#btn:hover{
+    background-color: azure;
+    color: black;
+    transition: 0.3sec;
+}
+
+@media (max-width:768px){
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .logo{
+        align-items: center;
+        justify-content: center;
+        padding-left: 150px;
+      }
+    
+      nav ul ,.shop{
+        /* flex-direction: column;
+        gap: 10px; */
+        display: none;
+      }
+    
+      .card {
+        width: 100%;
+        padding: 20px;
+        height: 90vh;
+        background-size: cover;
+      }
+    
+      .text {
+        font-size: 20px;
+        padding: 350px 10px;
+      }
+    
+      .foot {
+        height: 20vh;
+        flex-direction: column;
+        font-size: 10px;
+        text-align: center;
+        padding-left:50px ;
+      }
+    
+      
+    
+      #btn {
+        width: 100px;
+        font-size: large;
+      } 
+}
+
